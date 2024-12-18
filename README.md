@@ -1,27 +1,59 @@
+[![Banner](https://capsule-render.vercel.app/api?type=waving&height=200&text=Freitas'%20Mod&desc=A%20simple%20Minecraft%20mod%20created%20to%20learn%20about%20Minecraft%20modding&fontColor=000&fontAlignY=35&animation=fadeIn&descAlignY=55&theme=cobalt)](https://github.com/freitaseric/FreitasMod#readme)
 
-Installation information
-=======
+<div align="center">
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+![GitHub Repo stars](https://img.shields.io/github/stars/freitaseric/FreitasMod)
+![GitHub forks](https://img.shields.io/github/forks/freitaseric/FreitasMod)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+![GitHub License](https://img.shields.io/github/license/freitaseric/FreitasMod)
+![GitHub contributors](https://img.shields.io/github/contributors/freitaseric/FreitasMod)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/freitaseric/FreitasMod/build.yml)
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
+</div>
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+A simple Minecraft mod create to learn about Minecraft modding.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+<!-- omit in toc -->
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+
+
+## Installation
+
+<!-- TODO: Write installation instructions here -->
+> [!NOTE]
+> Installation guide begin later...
+
+## Usage
+<!-- TODO: Write usage instructions here -->
+> [!NOTE]
+> Usage guide begin later...
+
+## Development
+
+<!-- TODO: Write development instructions here -->
+> [!NOTE]
+> Development guide begin later...
+
+## Contributing
+
+1. Fork this repository by clicking [here](https://github.com/freitaseric/FreitasMod/fork).
+2. Clone your fork to your own machine by running the following command: `git clone https://github.com/freitaseric/FreitasMod`
+3. Create a branch for your contribution following this example: `git checkout -b feature/my-awesome-feature` _(follow conventional commit guidelines)_
+4. Develop your contribution... _self-explanatory_
+5. Create a [new pull request](https://github.com/freitaseric/FreitasMod/compare) and wait for it to be reviewed.
+
+> [!TIP]
+> This repository follows the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) style guides to organize commits and branches.
+
+> [!TIP]
+> Check whether an issue or pull request has been created before by adding your contribution.
+
+## Contributors
+
+- [@freitaseric](https://github.com/freitaseric) - creator and maintainer
