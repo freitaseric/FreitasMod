@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "freitasmod:item/nickel_ingot"
+  }
+}

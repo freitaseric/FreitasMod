@@ -1,8 +1,9 @@
 package dev.ericfreitas.freitasmod;
 
 import com.mojang.logging.LogUtils;
-import dev.ericfreitas.freitasmod.block.BlockRegister;
-import dev.ericfreitas.freitasmod.item.ItemRegister;
+import dev.ericfreitas.freitasmod.block.BlocksRegistry;
+import dev.ericfreitas.freitasmod.item.CreativeModeTabsRegistry;
+import dev.ericfreitas.freitasmod.item.ItemsRegistry;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -23,8 +24,10 @@ public class FreitasMod {
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::addCreative);
 
-        ItemRegister.register(modEventBus);
-        BlockRegister.register(modEventBus);
+        CreativeModeTabsRegistry.register(modEventBus);
+
+        ItemsRegistry.register(modEventBus);
+        BlocksRegistry.register(modEventBus);
 
         modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
     }
