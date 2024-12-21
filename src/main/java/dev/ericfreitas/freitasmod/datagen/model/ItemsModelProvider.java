@@ -15,5 +15,6 @@ public class ItemsModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ItemsRegistry.TIN_INGOT.get());
         basicItem(ItemsRegistry.NICKEL_INGOT.get());
+        basicItem(ItemsRegistry.ALUMINUM_INGOT.get());
     }
 }

@@ -1,5 +1,8 @@
 {
+  "block.freitasmod.aluminum_block": "Block of Aluminum",
   "fml.menu.mods.info.description.freitasmod": "A simple Minecraft mod create to learn about Minecraft modding.",
+  "item.freitasmod.aluminum_ingot": "Aluminum Ingot",
   "item.freitasmod.nickel_ingot": "Nickel Ingot",
-  "item.freitasmod.tin_ingot": "Tin Ingot"
+  "item.freitasmod.tin_ingot": "Tin Ingot",
+  "itemGroup.freitasmod.ores_tab": "Freitas' Mod Ores"
 }

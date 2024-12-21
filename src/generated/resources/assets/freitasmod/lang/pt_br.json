@@ -1,5 +1,8 @@
 {
+  "block.freitasmod.aluminum_block": "Bloco de Alumínio",
   "fml.menu.mods.info.description.freitasmod": "Um simples mod criado para aprender sobre criação de mods para Minecraft.",
+  "item.freitasmod.aluminum_ingot": "Barra de Alumínio",
   "item.freitasmod.nickel_ingot": "Barra de Níquel",
-  "item.freitasmod.tin_ingot": "Barra de Estanho"
+  "item.freitasmod.tin_ingot": "Barra de Estanho",
+  "itemGroup.freitasmod.ores_tab": "Freitas' Mod Minérios"
 }

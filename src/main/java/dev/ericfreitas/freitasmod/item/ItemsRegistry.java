@@ -12,6 +12,7 @@ public class ItemsRegistry {
     public static final DeferredItem<Item> TIN_INGOT = ITEMS.registerSimpleItem("tin_ingot", new Item.Properties());
 
     public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.registerSimpleItem("nickel_ingot", new Item.Properties());
+    public static final DeferredItem<Item> ALUMINUM_INGOT = ITEMS.registerSimpleItem("aluminum_ingot", new Item.Properties());
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
